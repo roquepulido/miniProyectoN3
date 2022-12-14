@@ -7,6 +7,7 @@ import Notas from "./pages/Notas";
 import Tareas from "./pages/Tareas";
 import Layout from "./pages/Layout";
 
+
 function App() {
   return (
     <Routes>

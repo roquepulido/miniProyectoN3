@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-calendar": "^4.0.0",

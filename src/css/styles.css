@@ -1,0 +1,7 @@
+body{
+    background-image: url("../assets/cool-background.png");
+}
+.container__body{
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.507);
+}

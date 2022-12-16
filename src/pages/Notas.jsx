@@ -3,8 +3,8 @@ import Notes from "../components/Notes/Notes";
 
 function Notas() {
   return (
-    <div>
-      <h1 className="text-center my-5 display-1">
+    <div className="container container__body my-5 p-5">
+      <h1 className="text-center display-1">
         <i className="bi bi-stickies me-2"></i>Notas
       </h1>
       <div className="notas__container">

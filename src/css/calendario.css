@@ -1,7 +1,8 @@
 .react-calendar {
-  width: 700px;
-  font-size: 2.5rem;
-  margin: 0 auto !important;
+  max-width: 600px !important;
+  width: 80% !important;
+  font-size: 2rem;
+  margin: 0 auto;
   padding: 1rem;
   box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
 }

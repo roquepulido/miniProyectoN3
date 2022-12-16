@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {Button,ButtonBox,Screen,Wrapper} from "./CalcComponents"
-import "../css/calculadora.css"
+import "../../css/calculadora.css"
 
 const btnValues = [
   ["C", "+-", "%", "/"],

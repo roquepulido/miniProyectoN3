@@ -1,12 +1,12 @@
 import React from "react";
-import Calc from "../components/Calc";
+import Calc from "../components/Calculadora/Calc";
 
 
 function Calculadora() {
   return (
     <div>
-      <h1 className="my-4 text-center">
-        <i className="bi bi-calculator me-2"></i>View Calculadora
+      <h1 className="text-center my-5 display-1">
+        <i className="bi bi-calculator me-2"></i>Calculadora
       </h1>
       <Calc />      
     </div>

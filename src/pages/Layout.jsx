@@ -26,29 +26,3 @@ function Layout() {
 }
 
 export default Layout;
-
-{
-  /* <div>
-      <h1>Layout</h1>
-      <nav>
-        <ul>
-           <li>
-             <Link to="/">Inicio</Link>
-           </li>
-           <li>
-             <Link to="/calculadora">Calculadora</Link>
-           </li>
-           <li>
-             <Link to="/calendario">Calendario</Link>
-           </li>
-           <li>
-             <Link to="/notas">Notas</Link>
-           </li>
-           <li>
-             <Link to="/tareas">Tareas</Link>
-           </li>
-         </ul>
-       </nav>
-       <Outlet/>
-    </div> */
-}

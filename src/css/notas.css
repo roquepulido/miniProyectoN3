@@ -1,0 +1,30 @@
+.nota__container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    background-color: rgb(245, 245, 8);
+    box-shadow: 2px 2px 4px ;
+    display: flex;
+    padding-top: 2rem;
+    
+    
+}
+.nota__container textarea{
+    
+    width: 100%;
+    background-color: transparent;
+    resize: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+}
+.nota__container button{
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    font-weight: 900;
+    right: 5px;
+    top:5px;
+    font-size: 1.5rem;
+}

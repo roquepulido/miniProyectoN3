@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Note from "./Note";
+import "../../css/notas.css"
 
 function Notes() {
   const [notes, setNotes] = useState([]);
@@ -15,9 +16,9 @@ function Notes() {
 
   return (
     <div className="App container w-50 d-flex flex-column">
-      <h1>Lista de Tareas</h1>
-      <div className=" mt-2 d-flex flex-column gap-2">
-        {notes.map((note,index) => (
+      <h1>Tus Notas</h1>
+      <div className="d-flex gap-4 flex-wrap my-4">
+        {notes.map((note) => (
           <Note
             key={note.id}
             id={note.id}
@@ -26,24 +27,18 @@ function Notes() {
           />
         ))}
       </div>
-      <input
-        className="form-controler"
-        type="text"
-        name="text"
-        id="text"
-        autoComplete="off"
-      />
+      
       <button
         onClick={() => {
           handleAddNote({
             id:Math.floor(Math.random()*100000),
-            textNote: document.getElementById("text").value,
+            textNote: "",
           });
           document.getElementById("text").value = "";
         }}
         className="mt-2 btn btn-primary"
       >
-        add Note
+        Agregar Nota
       </button>
     </div>
   );
